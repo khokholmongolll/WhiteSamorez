@@ -1,0 +1,170 @@
+ \documentclass[a4paper,12pt]{article}
+\usepackage[a4paper,top=1.3cm,bottom=2cm,left=1.5cm,right=1.5cm,marginparwidth=0.75cm]{geometry}
+\usepackage{setspace}
+\usepackage{cmap}					
+\usepackage{mathtext} 				
+\usepackage[T2A]{fontenc}			
+\usepackage[utf8]{inputenc}			
+\usepackage[english,russian]{babel}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,urlcolor=blue}
+\usepackage[rgb]{xcolor}
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} 
+\usepackage{icomma} 
+\usepackage{euscript}
+\usepackage{mathrsfs}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\newcommand{\RomanNumeralCaps}[1]
+    {\MakeUppercase{\romannumeral #1}}
+
+
+
+\title{\textbf{Лабораторная работа №10. Получение и свойства комплексных соединений.}}
+\author{Коротков Антон и Хохлов Андрей Б06-302 }
+\date{27.04.2024}
+
+
+\begin{document}
+	
+	\maketitle
+
+
+\section{Практическая часть}
+\subsection{Опыт №1. Получение гидроксокомплексов металлов и их свойства.}
+Соединения ряда переходных металлов проявляют амофтерные свойства, т.е. способны реагировать как с кислотами, так и с основаниями. Мы пронаблюдали это на примере солей цинка и хрома:
+\begin{equation}
+    ZnCl_2 + 2NaOH \xrightarrow[]{} Zn(OH)_2\downarrow + 2NaCl
+\end{equation}
+\begin{equation}
+    Zn(OH)_2 + 2NaOH \xrightarrow[]{} Na_2[Zn(OH)_4]
+\end{equation}
+При аккуратном приливании к хлориду цинка едкого натра сначала наблюдается выпадение белого осадка гидроксида цинка, который затем быстро растворяется.\newline
+Поскольку хлорид аммония - соль, образованная остатком слабого основания и сильной кислоты, его раствор имеет кислотную среду. Поэтому при приливании его к нашему основному комплексу выпадет гидроксид цинка:
+\begin{equation}
+    Na_2[Zn(OH)_4] + 2NH_4Cl \xrightarrow[]{} 2NaCl + Zn(OH)_2 + 2NH_3
+\end{equation}
+Аналогичные вещи происходят и с хромом, стоит только учитывать, что цинк образует тетрагидроксо комплексы, а хром - гекса:
+\begin{equation}
+    Cr(NO_3)_3 + 3NaOH \xrightarrow[]{} Cr(OH)_3\downarrow + 3NaNO_3
+\end{equation}
+\begin{equation}
+    Cr(OH)_3 + 3NaOH \xrightarrow[]{} Na_3[Cr(OH)_6]
+\end{equation}
+\begin{equation}
+    Na_3[Cr(OH)_6] + 3NH_4Cl \xrightarrow[]{} 3NaCl + 3NH_3 + Cr(OH)_3]\downarrow
+\end{equation}
+Стоит учитывать также, что гидроксид хрома (\RomanNumeralCaps{3}) - осадок серо-зеленого цвета, а комплексы хрома - зеленые.
+
+
+\subsection{Опыт №2. Получение катионных комплексов}
+Получим зеленый осадок - гидроксид никеля(\RomanNumeralCaps{2}):
+\begin{equation}
+    Ni(NO_3)_2 + 2NaOH \xrightarrow[]{} Ni(OH)_2 \downarrow+ 2NaNO_3
+\end{equation}
+Далее прильем амммиак до растворения осадка:
+\begin{equation}
+    Ni(OH)_2 + 6NH_3 \xrightarrow[]{} [Ni(NH_3)_6](OH)_2
+\end{equation}
+Получили раствор синего цвета, а всё потому что в растворе катионы гексааминикеля 2+.\newline
+С сульфатом меди и хлоридом кобальта происходят аналогичные реакции:
+\begin{equation}
+    CuSO_4 + 2NaOH \xrightarrow[]{} Cu(OH)_2\downarrow + Na_2SO_4
+\end{equation}
+\begin{equation}
+    Cu(OH)_2 + 4NH_3 \xrightarrow[]{} [Cu(NH_3)_4](OH)_2
+\end{equation}
+Гидроксид меди (\RomanNumeralCaps{2}) - синий осадок, комплекс меди - также синий.
+\begin{equation}
+    CoCl_2 + 2NaOH \xrightarrow[]{} Co(OH)_2\downarrow + 2NaCl
+\end{equation}
+\begin{equation}
+    Co(OH)_2 + 6NH_3 \xrightarrow[]{} [Co(NH_3)_6](OH)_2
+\end{equation}
+Гидроксид кобальта - синий, комплекс - тоже. Уравнение его диссоциации:
+\begin{equation}
+    [Co(NH_3)_6](OH)_2 \xrightarrow[]{} [Co(NH_3)_6]^{2+} + 2OH^-
+\end{equation}
+Более сильным основанием является, очевидно, комплексный катион, тк он хотя бы растворим.
+\subsection{Опыт №3. Образование комплексных соединений в реакциях обмена}
+К счастью, гексацианоферрат (\RomanNumeralCaps{2}) меди (\RomanNumeralCaps{2}) - красный осадок:
+\begin{equation}
+    2CuSO_4 + K_4[Fe(CN)_6] \xrightarrow[]{} Cu_2[Fe(CN)_6]\downarrow +2K_2SO_4
+\end{equation}
+\subsection{Опыт №4. Сравнение свойств двойной соли и координационного соединения }
+Как известно, двойные соли - соли, содержащие два разных катиона. Фишка данного опыта в том, что в двойных солях оба катиона свободно находятся в растворе, а в комплексных солях комплексный катион/анион очень слабо диссоциирует.
+Реакции с солью Мора:
+\begin{equation}
+    (NH_4)_2SO_4\cdot FeSO_4 \cdot 6H_2O + Na_2S \xrightarrow[]{} 6H_2O + (NH_4)_2SO_4 + FeS\downarrow +Na_2SO_4
+\end{equation}
+Выпал черный сульфид железа.
+\begin{equation}
+    (NH_4)_2SO_4\cdot FeSO_4 \cdot 6H_2O + 2BaCl_2 \xrightarrow[]{} 2BaSO_4\downarrow + 2NH_4Cl + FeCl_2 + 6H_2O
+\end{equation}
+Выпал белый сульфат бария.
+\begin{equation}
+    (NH_4)_2SO_4\cdot FeSO_4 \cdot 6H_2O + 2NaOH \xrightarrow[]{} 2NH_3\uparrow + FeSO_4 + 8H_2O + Na_2SO_4
+\end{equation}
+Наблюдается посинение индикаторной бумажки, тк выделяется аммиак. Итого уравнение диссоциации:
+\begin{equation}
+(NH_4)_2SO_4\cdot FeSO_4 \cdot 6H_2O \xrightarrow[]{} 2NH_4^+ + Fe^{2+} + 2SO_4^{2-} + 6H_2O
+\end{equation}
+При приливании к желтой кровяной соли сульфида натрия, естественно, ничего не выпадет, тк уравнение его диссоциации:
+\begin{equation}
+    K_4[Fe(CN)_6] \xrightarrow[]{} 4K^+ + [Fe(CN)_6]^{4-}
+\end{equation}
+\subsection{Опыт №5. Получения двойного комплексного соедиения.}
+Сначала получим красный осадок гексацианоферрата(\RomanNumeralCaps{2}) никеля:
+\begin{equation}
+    2Ni(NO_3)_2 + K_4[Fe(CN)_6] \xrightarrow[]{} Ni_2[Fe(CN)_6]\downarrow + 4KNO_3
+\end{equation}
+Затем растворим его в аммиаке:
+\begin{equation}
+    Ni_2[Fe(CN)_6] + 12NH_3 \xrightarrow[]{} [Ni(NH_3)_6]_2[Fe(CN)_6]
+\end{equation}
+Получили лиловый комплекс с зарядом катиона 2+, зарядом аниона 4-.
+\subsection{Опыт №6. Окислительно-восстановительные реакции с участием комплексного иона.}
+В желтой кровяной соли железо находится в степени окисления +2, что говорит о его восстановительных свойствах, поэтому в реакции с перманганатом калия:
+\begin{equation}
+    KMnO_4 + 5K_4[Fe(CN)_6] + 4H_2SO_4 \xrightarrow[]{} 3K_2SO_4 + 5K_3[Fe(CN)_6] + MnSO_4 + 4H_2O
+\end{equation}
+Происхрдит образование красной кровяной соли.
+\subsection{Опыт №7. Исследование устойчивости комплексных ионов.}
+Получим аммиачный раствор хлорида серебра:
+\begin{equation}
+    NaCl + AgNO_3 \xrightarrow[]{} AgCl\downarrow + NaNO_3
+\end{equation}
+\begin{equation}
+    AgCl + 2NH_3 \xrightarrow[]{} [Ag(NH_3)_2]Cl
+\end{equation}
+При обработке азотной кислотой основный комплекс, безусловно, не выживет:
+\begin{equation}
+    [Ag(NH_3)_2]Cl + 2HNO_3 \xrightarrow[]{} AgCl\downarrow 2NH_4NO_3
+\end{equation}
+При добавлении сульфида натрия перевыпадет серый сульфид серебра:
+\begin{equation}
+    2AgCl + Na_2S \xrightarrow[]{} Ag_2S\downarrow + 2NaCl
+\end{equation}
+При добавлении к хлориду диаминсеребра йодида натрия будет выпадать йодид серебра:
+\begin{equation}
+    [Ag(NH_3)_2]Cl + KI \xrightarrow[]{} AgI\downarrow + 2NH_3 + KCl
+\end{equation}
+Если к осадку йодида серебра прилить избыток йодида калия, то он растворится:
+\begin{equation}
+    AgI + KI \xrightarrow[]{} K[AgI_2]
+\end{equation}
+Реакции с йодной водой и металлами у нас, к сожалению, не пошли.
+\newpage
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 0.6\linewidth]{IMAGE 2024-04-28 00:08:18.jpg}
+    \caption{Едем на рыблку rrah rrah}
+    \label{fig:enter-label}
+\end{figure}
+\end{document}
